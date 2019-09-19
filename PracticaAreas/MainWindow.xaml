@@ -36,6 +36,10 @@
         <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Circulo:" VerticalAlignment="Top" Margin="108,202,0,0"/>
         <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Trapecio:" VerticalAlignment="Top" Margin="108,278,0,0"/>
         <TextBlock FontFamily="bold" FontStyle="Italic" FontSize="20" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Àrea de figuras geomètricas" VerticalAlignment="Top" Margin="111,26,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Àrea:" VerticalAlignment="Top" Margin="658,77,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Àrea:" VerticalAlignment="Top" Margin="658,149,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Àrea:" VerticalAlignment="Top" Margin="658,224,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Àrea:" VerticalAlignment="Top" Margin="658,297,0,0"/>
 
     </Grid>
 </Window>
