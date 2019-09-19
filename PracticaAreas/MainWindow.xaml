@@ -1,0 +1,41 @@
+﻿<Window x:Class="PracticaAreas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaAreas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Peru">
+    <Grid>
+        <TextBox x:Name="txtBaseR" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="108,100,0,0"/>
+        <TextBox x:Name="txtAlturaR" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="317,100,0,0"/>
+        <TextBox x:Name="txtBaseT" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="108,172,0,0"/>
+        <TextBox x:Name="txtAlturaT" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="317,172,0,0"/>
+        <TextBox x:Name="txtRadioC" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="108,244,0,0"/>
+        <TextBox x:Name="txtBaseMayorTa" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="108,320,0,0"/>
+        <TextBox x:Name="txtBaseMenorTa" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="317,320,0,0"/>
+        <TextBox x:Name="txtAlturaTa" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="108,369,0,0"/>
+        <Button FontFamily="bold" FontStyle="Italic" x:Name="btnR" Content="Calcular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="526,99,0,0" Click="BtnR_Click" Height="18"/>
+        <Button FontFamily="bold" FontStyle="Italic" x:Name="btnT" Content="Calcular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="526,172,0,0" Click="BtnT_Click" Height="18"/>
+        <Button FontFamily="bold" FontStyle="Italic" x:Name="btnC" Content="Calcular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="526,243,0,0" Click="BtnC_Click" Height="18"/>
+        <Button FontFamily="bold" FontStyle="Italic" x:Name="btnTa" Content="Calcular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="526,319,0,0" Click="BtnTa_Click" Height="18"/>
+        <TextBlock x:Name="lblR" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="667,101,0,0" Height="14" Width="21"/>
+        <TextBlock x:Name="lblT" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="667,174,0,0" Height="14" Width="21"/>
+        <TextBlock x:Name="lblC" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="667,245,0,0" Height="15" Width="21"/>
+        <TextBlock x:Name="lblTa" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="667,320,0,0" Height="15" Width="21"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Base:" VerticalAlignment="Top" Margin="108,79,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Altura:" VerticalAlignment="Top" Margin="317,79,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Base:" VerticalAlignment="Top" Margin="108,151,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Altura:" VerticalAlignment="Top" Margin="317,151,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Radio:" VerticalAlignment="Top" Margin="108,223,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Base mayor:" VerticalAlignment="Top" Margin="108,299,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Base menor:" VerticalAlignment="Top" Margin="317,299,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Altura:" VerticalAlignment="Top" Margin="108,348,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Rectàngulo:" VerticalAlignment="Top" Margin="108,58,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Triàngulo:" VerticalAlignment="Top" Margin="108,130,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Circulo:" VerticalAlignment="Top" Margin="108,202,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Trapecio:" VerticalAlignment="Top" Margin="108,278,0,0"/>
+        <TextBlock FontFamily="bold" FontStyle="Italic" FontSize="20" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Àrea de figuras geomètricas" VerticalAlignment="Top" Margin="111,26,0,0"/>
+
+    </Grid>
+</Window>
