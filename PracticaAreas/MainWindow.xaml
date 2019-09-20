@@ -5,7 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticaAreas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Peru">
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FF30BD5D" Offset="1"/>
+            <GradientStop Color="#FFB5FFAE"/>
+        </RadialGradientBrush>
+    </Window.Background>
     <Grid>
         <TextBox x:Name="txtBaseR" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="108,100,0,0"/>
         <TextBox x:Name="txtAlturaR" HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="108" Margin="317,100,0,0"/>
